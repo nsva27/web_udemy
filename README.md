@@ -1,0 +1,1 @@
+This is a simple project for practicing of web-skills.
