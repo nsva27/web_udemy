@@ -5,5 +5,19 @@
   padding: 20px;
   border: 5px solid rgb(58, 58, 54);
   margin: 10px;
-  float: left;
+}
+
+.nav__list {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
+.nav__item {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.nav__item:last-child {
+  margin-right: 0px;
 }
