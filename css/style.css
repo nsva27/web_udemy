@@ -1,23 +1,40 @@
+body {
+   font-size: 20px;
+}
+
+div {
+   color: red;
+}
+
+.wrapper .box {
+   color: orange;
+}
+
 .box {
-  width: 300px;
-  height: 300px;
-  background-color: rgb(255, 0, 0);
-  padding: 20px;
-  border: 5px solid rgb(58, 58, 54);
-  margin: 10px;
+   width: 30vw;
+   height: 300px;
+   color: blue;
+   background-color: rgb(188, 168, 168);
+   padding: 20px;
+   border: 0.5rem solid rgb(58, 58, 54);
+   margin: 10px;
 }
 
 .nav__list {
-  display: flex;
-  padding: 0;
-  justify-content: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 14px;
+   display: flex;
+   padding: 0;
+   justify-content: center;
 }
 
 .nav__item {
-  list-style: none;
-  margin-right: 20px;
+   margin-right: 20px;
+   list-style: none;
+   text-decoration: none;
+   color: #2c2c2c;
 }
 
 .nav__item:last-child {
-  margin-right: 0px;
+   margin-right: 0px;
 }
