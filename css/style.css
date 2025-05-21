@@ -1,40 +1,43 @@
+@import url('fonts.css');
+
 body {
-   font-size: 20px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
 }
 
 div {
-   color: red;
+  color: red;
 }
 
 .wrapper .box {
-   color: orange;
+  color: rgb(37, 31, 20);
 }
 
 .box {
-   width: 30vw;
-   height: 300px;
-   color: blue;
-   background-color: rgb(188, 168, 168);
-   padding: 20px;
-   border: 0.5rem solid rgb(58, 58, 54);
-   margin: 10px;
+  width: 30vw;
+  height: 300px;
+  color: blue;
+  background-color: rgb(188, 168, 168);
+  padding: 20px;
+  border: 0.5rem solid rgb(58, 58, 54);
+  margin: 10px;
 }
 
 .nav__list {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 14px;
-   display: flex;
-   padding: 0;
-   justify-content: center;
+  font-size: 14px;
+  display: flex;
+  padding: 0;
+  justify-content: center;
 }
 
 .nav__item {
-   margin-right: 20px;
-   list-style: none;
-   text-decoration: none;
-   color: #2c2c2c;
+  margin-right: 20px;
+  list-style: none;
+  text-decoration: none;
+  color: #2c2c2c;
 }
 
 .nav__item:last-child {
-   margin-right: 0px;
+  margin-right: 0px;
 }
